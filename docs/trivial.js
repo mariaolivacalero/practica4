@@ -10,6 +10,7 @@ let getQuestions= async (categoria, nivel) => {
         console.log(res.results);
         document.getElementById('question').innerHTML = res.results[0].question;
         document.getElementById('category').innerHTML = res.results[0].category;
+        document.getElementById('difficulty').innerHTML = res.results[0].difficulty;
 
     }
 
