@@ -38,6 +38,7 @@ function guess(){
               } else
                 result.innerHTML = 'Sorry! :( You can try again';
             }
+            document.getElementById('result').hidden=false;
         }
         
 
@@ -49,4 +50,5 @@ function guess(){
 function start(){
     document.getElementById('selector').hidden= false;
     document.getElementById('juego').hidden= true;
+    document.getElementById('result').hidden=true;
 }
